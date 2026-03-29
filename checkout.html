@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de checkout de la tienda UrbanCart.">
+  <title>UrbanCart | Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">UC</span>
+        <span>UrbanCart</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a class="active" href="checkout.html">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Formulario web</span>
+        <h1>Datos de envío y pago</h1>
+        <p>Este formulario es de demostración. No guarda datos ni envía pedidos reales.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <article class="form-card">
+          <h2>Completa tu pedido</h2>
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Datos personales</legend>
+              <div class="form-row">
+                <div>
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" type="text" placeholder="Ana" required>
+                </div>
+                <div>
+                  <label for="apellidos">Apellidos</label>
+                  <input id="apellidos" name="apellidos" type="text" placeholder="García López" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div>
+                  <label for="email">Correo electrónico</label>
+                  <input id="email" name="email" type="email" placeholder="ana@email.com" required>
+                </div>
+                <div>
+                  <label for="telefono">Teléfono</label>
+                  <input id="telefono" name="telefono" type="tel" placeholder="600123123" pattern="[0-9]{9}" required>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Dirección de envío</legend>
+              <label for="direccion">Dirección</label>
+              <input id="direccion" name="direccion" type="text" placeholder="Calle Mayor, 10" required>
+              <div class="form-row">
+                <div>
+                  <label for="ciudad">Ciudad</label>
+                  <input id="ciudad" name="ciudad" type="text" placeholder="Madrid" required>
+                </div>
+                <div>
+                  <label for="cp">Código postal</label>
+                  <input id="cp" name="cp" type="text" placeholder="28001" pattern="[0-9]{5}" required>
+                </div>
+              </div>
+              <label for="provincia">Provincia</label>
+              <select id="provincia" name="provincia" required>
+                <option value="">Selecciona una opción</option>
+                <option>Madrid</option>
+                <option>Barcelona</option>
+                <option>Valencia</option>
+                <option>Sevilla</option>
+              </select>
+            </fieldset>
+
+            <fieldset>
+              <legend>Pago y extras</legend>
+              <div class="radio-row">
+                <label><input type="radio" name="pago" value="tarjeta" checked> Tarjeta</label>
+                <label><input type="radio" name="pago" value="paypal"> PayPal</label>
+                <label><input type="radio" name="pago" value="transferencia"> Transferencia</label>
+              </div>
+              <div class="checkbox-row">
+                <label><input type="checkbox" name="newsletter"> Quiero recibir ofertas</label>
+                <label><input type="checkbox" name="condiciones" required> Acepto las condiciones</label>
+              </div>
+              <label for="comentarios">Comentarios del pedido</label>
+              <textarea id="comentarios" name="comentarios" placeholder="Indica aquí instrucciones de entrega o cualquier detalle adicional."></textarea>
+            </fieldset>
+
+            <input type="submit" value="Confirmar pedido">
+          </form>
+        </article>
+
+        <aside class="summary-card">
+          <h2>Resumen final</h2>
+          <p><strong>Cliente:</strong> ejemplo estático</p>
+          <p><strong>Productos:</strong> 2 referencias</p>
+          <p><strong>Total:</strong> 129,79 €</p>
+          <div class="notice">Al pulsar en confirmar no se enviará nada. El objetivo es mostrar el uso correcto del formulario.</div>
+
+          <h3>Consejos para la entrega</h3>
+          <ul class="check-list">
+            <li>Valida el HTML antes de entregar.</li>
+            <li>Comprueba que todos los enlaces funcionan.</li>
+            <li>Haz una captura de la web ya subida a GitHub Pages.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>UrbanCart</h3>
+        <p class="small">Página de checkout preparada para la práctica.</p>
+      </div>
+      <div>
+        <p class="small">© 2026 UrbanCart</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

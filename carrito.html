@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resumen del carrito de compra de UrbanCart.">
+  <title>UrbanCart | Carrito</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">UC</span>
+        <span>UrbanCart</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a class="active" href="carrito.html">Carrito</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Carrito de compra</span>
+        <h1>Resumen del pedido</h1>
+        <p>Los productos y el cálculo del pedido están definidos de forma estática para esta práctica.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cart-layout">
+        <div class="cart-list">
+          <article class="cart-item">
+            <img src="assets/img/product-aurora.svg" alt="Auriculares Aurora en el carrito.">
+            <div>
+              <h2>Aurora Headphones</h2>
+              <p>Auriculares inalámbricos con cancelación de ruido.</p>
+              <p><strong>Precio unitario:</strong> 89,99 €</p>
+              <p class="qty-static"><strong>Cantidad:</strong> 1 unidad</p>
+            </div>
+            <p class="price">89,99 €</p>
+          </article>
+
+          <article class="cart-item">
+            <img src="assets/img/product-flow.svg" alt="Botella Flow en el carrito.">
+            <div>
+              <h2>Flow Bottle</h2>
+              <p>Botella térmica reutilizable de 750 ml.</p>
+              <p><strong>Precio unitario:</strong> 24,90 €</p>
+              <p class="qty-static"><strong>Cantidad:</strong> 2 unidades</p>
+            </div>
+            <p class="price">49,80 €</p>
+          </article>
+        </div>
+
+        <aside class="summary-card">
+          <h2>Total del carrito</h2>
+          <div class="summary-line">
+            <span>Subtotal</span>
+            <span>139,79 €</span>
+          </div>
+          <div class="summary-line">
+            <span>Envío</span>
+            <span>Gratis</span>
+          </div>
+          <div class="summary-line">
+            <span>Descuento estudiante</span>
+            <span>-10,00 €</span>
+          </div>
+          <div class="summary-line total">
+            <span>Total</span>
+            <span>129,79 €</span>
+          </div>
+          <div class="notice">
+            Este resumen es completamente estático. Las cantidades, precios y totales están definidos directamente en el HTML para cumplir el requisito de usar solo HTML y CSS.
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="checkout.html">Finalizar compra</a>
+            <a class="btn btn-secondary" href="productos.html">Seguir comprando</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container table-card">
+        <table>
+          <caption>Detalle de líneas del pedido</caption>
+          <thead>
+            <tr>
+              <th>Artículo</th>
+              <th>Unidades</th>
+              <th>Precio</th>
+              <th>Importe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aurora Headphones</td>
+              <td>1</td>
+              <td>89,99 €</td>
+              <td>89,99 €</td>
+            </tr>
+            <tr>
+              <td>Flow Bottle</td>
+              <td>2</td>
+              <td>24,90 €</td>
+              <td>49,80 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>UrbanCart</h3>
+        <p class="small">Vista del carrito preparada para la práctica.</p>
+      </div>
+      <div>
+        <p class="small">© 2026 UrbanCart</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

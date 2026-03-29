@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de productos de la tienda estática UrbanCart.">
+  <title>UrbanCart | Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">UC</span>
+        <span>UrbanCart</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a class="active" href="productos.html">Productos</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Catálogo</span>
+        <h1>Selección de productos hardcodeados</h1>
+        <p>Todos los datos están escritos directamente en HTML para mantener la práctica como una web estática.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container catalog-grid">
+        <article class="card catalog-item">
+          <img src="assets/img/product-aurora.svg" alt="Auriculares Aurora color azul.">
+          <div class="catalog-content">
+            <h2>Aurora Headphones</h2>
+            <p>Cancelación de ruido, diseño plegable y conexión Bluetooth 5.3.</p>
+            <p class="price">89,99 €</p>
+            <div class="inline-actions">
+              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card catalog-item">
+          <img src="assets/img/product-flow.svg" alt="Botella térmica Flow color verde.">
+          <div class="catalog-content">
+            <h2>Flow Bottle</h2>
+            <p>Capacidad de 750 ml, aislamiento doble pared y tapón antigoteo.</p>
+            <p class="price">24,90 €</p>
+            <div class="inline-actions">
+              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card catalog-item">
+          <img src="assets/img/product-desk.svg" alt="Lámpara de escritorio minimalista.">
+          <div class="catalog-content">
+            <h2>Desk Lamp</h2>
+            <p>Luz cálida, neutra y fría con brazo ajustable y base estable.</p>
+            <p class="price">39,50 €</p>
+            <div class="inline-actions">
+              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-columns">
+        <article class="info-box">
+          <h2>Ficha destacada: Aurora Headphones</h2>
+          <p>
+            Este producto aparece destacado porque combina varios atributos útiles para una demo de tienda:
+            precio, valoración, envío y especificaciones técnicas fáciles de representar.
+          </p>
+          <ul class="check-list">
+            <li>Bluetooth 5.3</li>
+            <li>Autonomía aproximada: 30 horas</li>
+            <li>Peso: 280 g</li>
+            <li>Incluye funda de transporte</li>
+          </ul>
+        </article>
+
+        <article class="table-card">
+          <table>
+            <caption>Comparativa de productos</caption>
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Stock</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Aurora Headphones</td>
+                <td>Audio</td>
+                <td>89,99 €</td>
+                <td>12 unidades</td>
+              </tr>
+              <tr>
+                <td>Flow Bottle</td>
+                <td>Lifestyle</td>
+                <td>24,90 €</td>
+                <td>30 unidades</td>
+              </tr>
+              <tr>
+                <td>Desk Lamp</td>
+                <td>Hogar</td>
+                <td>39,50 €</td>
+                <td>8 unidades</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container stats-grid">
+        <article class="info-box">
+          <h3>Envío</h3>
+          <p>Gratis a partir de 60 €.</p>
+        </article>
+        <article class="info-box">
+          <h3>Devoluciones</h3>
+          <p>Hasta 30 días para cambios.</p>
+        </article>
+        <article class="info-box">
+          <h3>Valoración media</h3>
+          <p>4,7 sobre 5 en productos destacados.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>UrbanCart</h3>
+        <p class="small">Catálogo estático para la práctica 3.</p>
+      </div>
+      <div>
+        <p class="small">© 2026 UrbanCart</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" rx="40" fill="#EEF2FF"/>
+  <circle cx="923" cy="224" r="130" fill="#C7D2FE"/>
+  <circle cx="250" cy="682" r="110" fill="#99F6E4"/>
+  <rect x="180" y="230" width="580" height="80" rx="20" fill="#4F46E5"/>
+  <rect x="240" y="300" width="580" height="230" rx="32" fill="#ffffff" stroke="#D7DEEF" stroke-width="10"/>
+  <rect x="330" y="530" width="390" height="28" rx="14" fill="#A5B4FC"/>
+  <path d="M344 360H780L740 500H392L344 360Z" fill="#14B8A6"/>
+  <circle cx="446" cy="595" r="36" fill="#1F2937"/>
+  <circle cx="694" cy="595" r="36" fill="#1F2937"/>
+  <rect x="816" y="312" width="180" height="210" rx="28" fill="#ffffff" stroke="#D7DEEF" stroke-width="10"/>
+  <rect x="852" y="360" width="108" height="18" rx="9" fill="#4F46E5"/>
+  <rect x="852" y="400" width="80" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="852" y="438" width="96" height="18" rx="9" fill="#CBD5E1"/>
+  <text x="240" y="170" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">UrbanCart</text>
+  <text x="240" y="710" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="36">Diseño simple, catálogo claro y carrito responsive</text>
+</svg>

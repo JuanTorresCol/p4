@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda online estática sobre un carrito de compra desarrollada con HTML y CSS.">
+  <title>UrbanCart | Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">UC</span>
+        <span>UrbanCart</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">Práctica 3 · Web estática</span>
+          <h1>Una tienda online sencilla, limpia y responsive.</h1>
+          <p>
+            Esta demo representa una tienda con un <strong>carrito de compra hardcodeado</strong>.
+            Tiene cuatro páginas enlazadas, diseño uniforme con CSS y varios elementos HTML: títulos,
+            párrafos, tablas, multimedia y formularios.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="productos.html">Ver catálogo</a>
+            <a class="btn btn-secondary" href="carrito.html">Ir al carrito</a>
+          </div>
+        </div>
+        <article class="card hero-card">
+          <img src="assets/img/hero-cart.svg" alt="Ilustración de un carrito de compra moderno con tarjetas de producto.">
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-3">
+          <article class="feature">
+            <h2>Catálogo claro</h2>
+            <p>Tarjetas visuales con productos destacados, precios visibles y navegación rápida entre páginas.</p>
+          </article>
+          <article class="feature">
+            <h2>Carrito estático</h2>
+            <p>Los artículos, cantidades y precios están definidos en el código para centrarse en HTML y CSS.</p>
+          </article>
+          <article class="feature">
+            <h2>Diseño adaptable</h2>
+            <p>La web se ajusta a móvil, tablet y escritorio con una maquetación simple y consistente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-columns">
+        <div class="info-box">
+          <h2>Qué incluye esta práctica</h2>
+          <ul class="check-list">
+            <li>4 páginas HTML interconectadas.</li>
+            <li>Uso de etiquetas semánticas: <code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>article</code> y <code>footer</code>.</li>
+            <li>Tabla comparativa de productos y tabla de resumen del carrito.</li>
+            <li>Multimedia con imagen, vídeo embebido y audio.</li>
+            <li>Formulario de checkout con validación básica HTML.</li>
+          </ul>
+        </div>
+
+        <div class="table-card">
+          <table>
+            <caption>Resumen rápido del proyecto</caption>
+            <thead>
+              <tr>
+                <th>Página</th>
+                <th>Contenido principal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inicio</td>
+                <td>Presentación de la tienda y productos destacados</td>
+              </tr>
+              <tr>
+                <td>Productos</td>
+                <td>Catálogo, ficha destacada y tabla comparativa</td>
+              </tr>
+              <tr>
+                <td>Carrito</td>
+                <td>Artículos seleccionados y total del pedido</td>
+              </tr>
+              <tr>
+                <td>Checkout</td>
+                <td>Formulario de compra y datos de envío</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Productos destacados</h2>
+        <div class="catalog-grid">
+          <article class="card catalog-item">
+            <img src="assets/img/product-aurora.svg" alt="Auriculares Aurora en color azul.">
+            <div class="catalog-content">
+              <div class="tag-row">
+                <span class="tag">Audio</span>
+                <span class="tag">Top ventas</span>
+              </div>
+              <h3>Aurora Headphones</h3>
+              <p>Auriculares inalámbricos con cancelación de ruido y hasta 30 horas de autonomía.</p>
+              <p class="price">89,99 €</p>
+            </div>
+          </article>
+          <article class="card catalog-item">
+            <img src="assets/img/product-flow.svg" alt="Botella térmica Flow verde.">
+            <div class="catalog-content">
+              <div class="tag-row">
+                <span class="tag">Lifestyle</span>
+                <span class="tag">Eco</span>
+              </div>
+              <h3>Flow Bottle</h3>
+              <p>Botella térmica de acero inoxidable. Ligera, resistente y perfecta para el día a día.</p>
+              <p class="price">24,90 €</p>
+            </div>
+          </article>
+          <article class="card catalog-item">
+            <img src="assets/img/product-desk.svg" alt="Lámpara de escritorio minimalista color madera.">
+            <div class="catalog-content">
+              <div class="tag-row">
+                <span class="tag">Hogar</span>
+                <span class="tag">Diseño</span>
+              </div>
+              <h3>Desk Lamp</h3>
+              <p>Lámpara LED con tres intensidades y diseño minimalista para escritorio o mesilla.</p>
+              <p class="price">39,50 €</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container media-grid">
+        <article class="media-card">
+          <h2>Vídeo de referencia</h2>
+          <p>Ejemplo visual de una landing de e-commerce para inspirar la maquetación.</p>
+          <iframe height="315" src="https://www.youtube.com/embed/yfoY53QXEnI" title="Vídeo de ejemplo sobre diseño web responsive" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+
+        <article class="media-card">
+          <h2>Audio de confirmación</h2>
+          <p>Pequeño recurso multimedia local para demostrar el uso de la etiqueta <code>audio</code>.</p>
+          <audio controls>
+            <source src="assets/media/confirm-tone.wav" type="audio/wav">
+            Tu navegador no soporta el elemento de audio.
+          </audio>
+          <div class="notice">En una práctica real podrías sustituir este audio por un aviso de pedido confirmado o una locución promocional.</div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>UrbanCart</h3>
+        <p class="small">Proyecto académico para la práctica de HTML y CSS. No hay backend ni compra real.</p>
+      </div>
+      <div>
+        <p class="small"><strong>Alumno:</strong> Tu nombre aquí</p>
+        <p class="small"><strong>Curso:</strong> Programación de Aplicaciones Telemáticas</p>
+        <p class="small">© 2026 UrbanCart</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
