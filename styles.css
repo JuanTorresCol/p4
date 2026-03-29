@@ -239,6 +239,9 @@ input[type="submit"] {
 
 .catalog-item {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .catalog-item img {
@@ -249,12 +252,16 @@ input[type="submit"] {
 
 .catalog-content {
   padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .price {
   color: var(--primary-dark);
   font-size: 1.3rem;
   font-weight: 800;
+  margin-top: auto;
 }
 
 .tag-row {
@@ -267,7 +274,7 @@ input[type="submit"] {
 .tag {
   font-size: 0.86rem;
   background: #f3f4f6;
-  color: #374151;
+  color: #514837;
   padding: 0.35rem 0.65rem;
   border-radius: 999px;
 }
