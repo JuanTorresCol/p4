@@ -40,7 +40,7 @@ img {
 }
 
 .container {
-  width: min(92%, var(--max));
+  width: min(94%, var(--max));
   margin: 0 auto;
 }
 
