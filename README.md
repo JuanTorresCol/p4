@@ -1,12 +1,10 @@
-# Práctica 3 - Página web estática
+# Práctica 5 - Página web 
 
-Práctica sobre HTML y CSS, desarrollo de una página web estática.
+Práctica sobre Js
 
-## Estructura
+## Ejecución:
 
-- `index.html` → portada
-- `productos.html` → catálogo y tabla comparativa
-- `carrito.html` → resumen del carrito
-- `checkout.html` → formulario de compra
-- `styles.css` → estilos compartidos
-- `assets/` → imágenes y audio
+1. Descargar el backend y ejecutar, se encuentra en el repositorio:
+   https://github.com/JuanTorresCol/PAT-Practica3
+2. Acceder a la página web en:
+   https://juantorrescol.github.io/p4/
