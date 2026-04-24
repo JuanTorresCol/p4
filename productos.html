@@ -6,6 +6,7 @@
   <meta name="description" content="Catálogo de productos de la tienda estática Ebeeehy.">
   <title>Ebeeehy | Productos</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="productos.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -37,37 +38,40 @@
     <section class="section">
       <div class="container catalog-grid">
         <article class="card catalog-item">
-          <img src="assets/img/DaniJarque.webp">
+          <img src="assets/img/Camiseta Dani Jarque.webp">
           <div class="catalog-content">
-            <h2>Camiseta Dani Jarque</h2>
-            <p>Sigue oliendo a aquel triunfo en el minuto 116.</p>
-            <p class="price">500 €</p>
+            <h2 id = "nombre-dani-jarque">Camiseta Dani Jarque</h2>
+            <p id = "descripcion-dani-jarque">Sigue oliendo a aquel triunfo en el minuto 116.</p>
+            <p id = "precio-dani-jarque" class="price">500 €</p>
             <div class="inline-actions">
-              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+              <button class="btn btn-primary" id="btn-dani-jarque">Añadir al carrito</button>
+              <!-- <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a> -->
             </div>
           </div>
         </article>
 
         <article class="card catalog-item">
-          <img src="assets/img/Cint.png">
+          <img src="assets/img/Cinta Rafa Nadal.webp">
           <div class="catalog-content">
-            <h2>Cinta Rafa Nadal</h2>
-            <p>Ninguna otra con más triunfos en suelo francés.</p>
-            <p class="price">100 €</p>
+            <h2 id = "nombre-cinta">Cinta Rafa Nadal</h2>
+            <p id = "descripcion-cinta">Ninguna otra con más triunfos en suelo francés.</p>
+            <p id = "precio-cinta" class="price">100 €</p>
             <div class="inline-actions">
-              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+              <button class="btn btn-primary" id="btn-cinta-nadal">Añadir al carrito</button>
+              <!-- <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a> -->
             </div>
           </div>
         </article>
 
         <article class="card catalog-item">
-          <img src="assets/img/alonsoPapa.webp">
+          <img src="assets/img/Gafas de Sol El Nano.webp">
           <div class="catalog-content">
-            <h2>Gafas de Sol El Nano</h2>
-            <p>Unas gafas para enamorar a tu futura mujer y a su padre también.</p>
-            <p class="price">25 €</p>
+            <h2 id = "nombre-gafas">Gafas de Sol El Nano</h2>
+            <p id = "descripcion-gafas">Unas gafas para enamorar a tu futura mujer y a su padre también.</p>
+            <p id = "precio-gafas" class="price">25 €</p>
             <div class="inline-actions">
-              <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a>
+              <button class="btn btn-primary" id="btn-gafas-nano">Añadir al carrito</button>
+              <!-- <a class="btn btn-primary" href="carrito.html">Añadir al carrito</a> -->
             </div>
           </div>
         </article>

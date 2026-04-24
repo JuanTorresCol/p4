@@ -6,6 +6,7 @@
   <meta name="description" content="Resumen del carrito de compra de Ebeeehy.">
   <title>Ebeeehy | Carrito</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="carrito.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -36,28 +37,8 @@
 
     <section class="section">
       <div class="container cart-layout">
-        <div class="cart-list">
-          <article class="cart-item">
-            <img src="assets/img/DaniJarque.webp">
-            <div>
-              <h2>Camiseta Dani Jarque</h2>
-              <p>Camiseta interior de Andrés Iniesta en la final del mundial de 2010.</p>
-              <p><strong>Precio unitario:</strong> 500 €</p>
-              <p class="qty-static"><strong>Cantidad:</strong> 1 unidad</p>
-            </div>
-            <p class="price">500 €</p>
-          </article>
-
-          <article class="cart-item">
-            <img src="assets/img/alonsoPapa.webp">
-            <div>
-              <h2>Gafas Chulas Chulas</h2>
-              <p>Gafas de sol usadas por Fernando Alonso.</p>
-              <p><strong>Precio unitario:</strong> 25 €</p>
-              <p class="qty-static"><strong>Cantidad:</strong> 4 unidades</p>
-            </div>
-            <p class="price">100 €</p>
-          </article>
+        <div class="cart-list" id = "cart-list">
+          
         </div>
 
         <aside class="summary-card">
@@ -72,10 +53,10 @@
           </div>
           <div class="summary-line total">
             <span>Total</span>
-            <span>590 €</span>
+            <span id = "precio-fin">590 €</span>
           </div>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="checkout.html">Finalizar compra</a>
+            <button class="btn btn-primary" id = "btn fin-compra">Finalizar compra</button>
             <a class="btn btn-secondary" href="productos.html">Seguir comprando</a>
           </div>
         </aside>
